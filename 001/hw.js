@@ -21,6 +21,14 @@ if (dice1 + dice2 >= 8) {
     console.log ('Pralosiau...')
 }
 
+// Alternatyvus sprendimas:
+
+if (getRandom(1, 6) + getRandom(1, 6) >= 8) {
+    console.log ('Laimeeeeejau!');
+} else {
+    console.log ('Praaaaalosiau...')
+}
+
 /*
 2. Gyveno du katinukai, Pilkis ir Murklys. Jų svoriai kilogramais buvo atsitiktiniai dydžiai nuo 3 iki 6. Parašyti programą, kuri išvestų katinukų svorius ir apskaičiuotų, kuris katinukas yra lengvesnis. Atsakymas turi būti katinukų vardai su jų svoriais ir lengvesnio katinuko vardas. Jeigu katinukai sveria vienodai, vietoj katinuko vardo parašykite, kad “katinukų svoriai vienodi”.
 */
@@ -75,3 +83,20 @@ if (pirkti === 1 || pirkti === 5) {
     console.log ('šaldytuvą');
 }
 
+/*
+(BOSO lygis) Sugeneruokite tris atsitiktinius skaičius nuo 1 iki 7. Skaičius atspausdinkite nuo mažiausio iki didžiausio. Pavyzdžiui: sugeneravus 4, 2, 4 juos reikia atspausdinti tokia tvarka: 2 4 4;
+*/
+
+const boss1 = (getRandom(1, 7));
+const boss2 = (getRandom(1, 7));
+const boss3 = (getRandom(1, 7));
+
+console.log(boss1, boss2, boss3);
+
+const bossAll = [];
+
+bossAll.push(boss1, boss2, boss3);
+
+bossAsc = bossAll.sort();
+
+console.log(bossAsc);
