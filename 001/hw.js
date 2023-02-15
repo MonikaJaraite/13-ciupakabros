@@ -1,6 +1,7 @@
 console.log('Tikrinu');
 
 /*
+#1
 1. Programiškai ridenkite du žaidimo kauliukus- sugeneruokite du atsitiktinius skaičius nuo 1 iki 6 Jeigu kauliukų suma didesnė nei 8 jūs laimėjote, priešingu atveju pralošėte. Išveskite atsakymą, kuriame būtų abiejų kauliukų reikšmės ir išvada laimėjote ar pralošėte.
 */
 
@@ -100,3 +101,13 @@ bossAll.push(boss1, boss2, boss3);
 bossAsc = bossAll.sort();
 
 console.log(bossAsc);
+
+/*
+#2
+1. Vyksta automobilių žiedinės lenktynės. Automobiliui Nr. 55 liko nuvažiuoti 10 ratų. Suprogramuokite for ciklą, kuris imituotų 10 ratų automobilio važiavimą ir kiekviename cikle pateiktų (atspausdintų) kiek ratų dar liko automobiliui nuvažiuoti. Paskutinis skaičius turėtų būti 1. Visas rezultatas turėtų būti toks:  10 9 8 7 6 5 4 3 2 1 (skaičiai gali būti atspausdinti stulpeliu).
+*/
+
+for (let r = 10; r >= 1; r--) {
+    console.log(r);
+}
+
