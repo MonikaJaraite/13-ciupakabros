@@ -59,3 +59,19 @@ if (katinukai <= 15 && karves <=15 && katinukai + karves <=30) {
     console.log('Netelpa');
 }
 
+/*
+4. Antanas nusipirko naują butą ir pinigų jam liko nedaug. Dabar jis niekaip negali apsispręsti ką pirmiausiai pirkti: televizorių, skalbimo mašiną ar šaldytuvą. Todėl nusprendžia ridenti kauliuką (atsitiktinis skaičius nuo 1 iki 6) ir jeigu iškris 1 arba 5 pirkti televizorių, jeigu 3 arba 4 pirkti skalbimo mašiną ir jeigu 2 arba 6 - šaldytuvą. Padėkite Antanui apsispręsti. Ridenkite kauliuką ir parašykite atsakymą kokį daiktą jam pirkti.
+*/
+
+const pirkti = (getRandom(1, 6));
+
+console.log(pirkti);
+
+if (pirkti === 1 || pirkti === 5) {
+    console.log ('televizorių');
+} else if (pirkti === 3 || pirkti === 4) {
+    console.log ('skalbyklę');
+} else {
+    console.log ('šaldytuvą');
+}
+
