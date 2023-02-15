@@ -111,3 +111,16 @@ for (let r = 10; r >= 1; r--) {
     console.log(r);
 }
 
+/*
+2. Vyksta automobilių žiedinės lenktynės. Automobiliui Nr. 55 liko nuvažiuoti 10 ratų. Kiekvieną ratą automobilis važiuoja skirtingu nuo 120 iki 220 km/h greičiu. Suprogramuokite for ciklą, kuris imituotų 10 ratų automobilio važiavimą, rand() funkcija generuokite atsitiktinį automobilio greitį o visiems ciklams pasibaigus pateikite bendrą visų 10 ratų vidutinį greitį.
+*/
+
+const speed = (getRandom(120, 220));
+
+console.log(speed);
+
+// for (let i = 10; i >= 1; i--) {
+//     console.log(i);
+//     i.forEach*speed;
+    
+// }
