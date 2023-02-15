@@ -44,3 +44,18 @@ if (Pilkis < Murklys) {
     console.log ('Katinukų svoriai vienodi');
 }
 
+/*
+3. Nojus pasiruošė potvyniui ir nusipirko dvi valtis. Vienoje telpa 15 katinukų, kitoje 15 karvių (katinukus galima sodinti tik į katinukų valtis, o karves tik į karvių, maišyti negalima) Prasidėjus liūčiai pas Nojų atėjo atsitiktinis skaičius nuo 0 iki 30 katinukų ir toks pats atsitiktinis skaičius karvių. Išveskite atėjusių katinukų ir karvių skaičių ir ar Nojus galės juos sutalpinti į valtis. Jeigu netelpa tik katinukai arba tik karvės vistiek išveskite “Netelpa”. Kas konkrečiai netelpa išvedinėti nereikia. “Telpa” išveskite tik tuo atveju jeigu ir katinukai ir karvės telpa.
+*/
+
+const katinukai = (getRandom(1, 30));
+const karves = (getRandom(1, 30));
+
+console.log (katinukai, karves);
+
+if (katinukai <= 15 && karves <=15 && katinukai + karves <=30) {
+    console.log('Telpa');
+} else {
+    console.log('Netelpa');
+}
+
